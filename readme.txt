@@ -1,2 +1,3 @@
 Welcome to Python programming
-by CodeMobiles.com 
+by http://codemobiles.com/
+https://github.com/codemobiles/cm_python_programming 
