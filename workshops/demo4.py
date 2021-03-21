@@ -1,29 +1,32 @@
 # Implicit Declaration
-tmp1 = 1  # integer
-tmp2 = 2  # integer
-tmp3 = "Hey"  # string
-tmp4 = 'Hey'  # string
-tmp5 = 1.1  # float
-tmp6 = False  # bool
-tmp66 = {"username": "admin", "password": "1234"}
-tmp77 = ["Angular", "React", "Vue"]
-print(tmp66)
-print(tmp77)
+tmp1 = 1  # int
+tmp2 = "Hey"  # str
+tmp3 = True  # bool
+tmp4 = 1.3  # float
 
 print(tmp1)
-print(tmp2)
-print(tmp3)
-print(tmp4)
+print(type(tmp1))
+print(type(tmp2))
+
 
 # Explicit Declaration
-tmp7 = int(7)
-tmp8 = float(7.2)
-tmp9 = str(7.2)
-tmp10 = bool(True)
+exp1: int = 1
+exp2: str = "CodeMobiles"
+exp3: bool = False
+exp4: float = 1.2
+
+print(exp4)
+print(type(exp4))
+
+
+# list
+tmp5 = ["Angular", "React", "Vue"]
+tmp6 = {"username": "admin", "password": "1234"}
+print(tmp5)
+print(tmp6)
+
+
 tmp11 = dict(username="admin", password="1234")
 tmp12 = list(("Angular", "React", "Vue"))
-
-print(type(tmp8))
-print(type(tmp9))
 print(tmp11)
 print(tmp12)
