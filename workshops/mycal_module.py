@@ -7,3 +7,8 @@ def plus(a, b):
 
 def divide(a, b):
     return a/b
+
+
+def greeting(name): {
+    print("HiCal, {}".format(name))
+}
