@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pyinstaller = "*"
 pymon = "*"
+matplotlib = "*"
+numpy = "*"
 
 [dev-packages]
 
