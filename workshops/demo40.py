@@ -1,10 +1,10 @@
 from typing import Optional
 
 
-def setCommand(cmd: str,  issuer: Optional[str] = None, priority: Optional[int] = 0):
-    print(cmd, priority, issuer)
+def callAction(cmd: str, key: Optional[str] = None, priority: Optional[int] = 0):
+    print(cmd, priority, key)
 
 
-setCommand(cmd="run", priority=1)
-setCommand(cmd="run")
-setCommand(cmd="run", priority=1, issuer="lek")
+callAction(cmd="login")
+callAction(cmd="login", priority=1)
+callAction(cmd="login", priority=1, key="1234")
