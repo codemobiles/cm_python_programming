@@ -8,6 +8,8 @@ pyinstaller = "*"
 pymon = "*"
 matplotlib = "*"
 numpy = "*"
+bcrypt = "*"
+passlib = "*"
 
 [dev-packages]
 
